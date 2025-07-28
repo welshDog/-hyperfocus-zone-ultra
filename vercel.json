@@ -1,13 +1,6 @@
 {
     "name": "hyperfocus-zone-ultra",
-    "engines": {
-        "node": ">=18.18.0"
-    },
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "deploy": "vercel --prod"
-    }
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install"
 }
