@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Enable experimental features
+  experimental: {
+    turbo: {},
+  },
+  // Production source maps for debugging
+  productionBrowserSourceMaps: true,
 };
 
 export default nextConfig;
